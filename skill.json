@@ -1,0 +1,26 @@
+{
+  "name": "genpark-agent-semantic-cache-manager-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Semantic prompt caching and hit recall tracker.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "cache",
+    "tokens"
+  ],
+  "inputs": {
+    "prompt": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "cache_hit": {
+      "type": "boolean"
+    },
+    "cached_response": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
